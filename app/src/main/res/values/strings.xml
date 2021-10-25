@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RetrofitStudy</string>
+    <string name="new_word">new_word</string>
+    <string name="noInternetConnection">No internet connection</string>
+</resources>
