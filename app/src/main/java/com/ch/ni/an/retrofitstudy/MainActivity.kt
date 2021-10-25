@@ -29,6 +29,7 @@ class MainActivity : AppCompatActivity() {
                         bind.animeQuoteTextView.visibility = View.GONE
                         bind.animeCharacterTextView.visibility = View.GONE
                         bind.animeNameTextView.visibility = View.GONE
+                        bind.favoriteImageButton.visibility = View.GONE
                     }
                     STATE.DONE -> {
                         updateUI()
@@ -45,6 +46,7 @@ class MainActivity : AppCompatActivity() {
                         bind.animeQuoteTextView.visibility = View.GONE
                         bind.animeCharacterTextView.visibility = View.GONE
                         bind.animeNameTextView.visibility = View.GONE
+                        bind.favoriteImageButton.visibility = View.GONE
 
                     }
                 }
@@ -65,6 +67,7 @@ class MainActivity : AppCompatActivity() {
         bind.animeQuoteTextView.visibility = View.VISIBLE
         bind.animeCharacterTextView.visibility = View.VISIBLE
         bind.animeNameTextView.visibility = View.VISIBLE
+        bind.favoriteImageButton.visibility = View.VISIBLE
     }
 
 }

@@ -6,9 +6,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.ch.ni.an.retrofitstudy.model.AnimeChan
 import com.ch.ni.an.retrofitstudy.retrofit.Common
-import com.ch.ni.an.retrofitstudy.retrofit.RetrofitServices
 import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import java.lang.Exception
 
@@ -35,7 +33,6 @@ class AnimeViewModel: ViewModel() {
             } catch (e:Exception) {
                 _state.postValue(STATE.FAIL)
             }
-
             }
         }
 
